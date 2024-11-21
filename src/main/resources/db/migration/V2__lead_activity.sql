@@ -16,3 +16,9 @@ CREATE TABLE IF NOT EXISTS activity (
     lead_id BIGINT,
     FOREIGN KEY (lead_id) REFERENCES leads(id)
     );
+
+INSERT INTO leads (name, status, customer_id, source)
+VALUES ('Proyecto Website Personal', 'Nuevo', 1, 'Referido');
+
+INSERT INTO activity (description, lead_id)
+VALUES ('Primera reunión de requisitos', 1);

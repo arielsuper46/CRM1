@@ -1,7 +1,7 @@
 package com.example.CRM.service
 
 import com.example.CRM.dto.CustomerDTO
-import com.example.CRM.model.Customer
+import com.example.CRM.entity.Customer
 import com.example.CRM.repository.CustomerRepository
 import org.springframework.stereotype.Service
 

@@ -1,8 +1,8 @@
 package com.example.CRM.service
 
 import com.example.CRM.dto.ActivityDTO
-import com.example.CRM.model.Activity
-import com.example.CRM.model.Lead
+import com.example.CRM.entity.Activity
+import com.example.CRM.entity.Lead
 import com.example.CRM.repository.ActivityRepository
 import com.example.CRM.repository.LeadRepository
 import org.springframework.stereotype.Service

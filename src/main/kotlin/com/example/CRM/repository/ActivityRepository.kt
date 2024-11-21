@@ -1,6 +1,6 @@
 package com.example.CRM.repository
 
-import com.example.CRM.model.Activity
+import com.example.CRM.entity.Activity
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
