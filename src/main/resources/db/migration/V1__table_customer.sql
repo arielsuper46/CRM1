@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXISTS customer (
 
 INSERT INTO customer (name, email)
 VALUES ('Juan Perez', 'juanito12@gmail.com');
+ INSERT INTO customer (name, email)
